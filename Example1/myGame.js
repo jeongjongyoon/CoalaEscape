@@ -64,7 +64,7 @@ room.sixtable = room.createObject("sixtable", "6인테이블-오른쪽.png")
 room.sixtable.setWidth(600)
 room.locateObject(room.sixtable, 900, 600)
 room.sixtable.onClick = function() {
-	printMessage("의자의 개수를 살펴보세요") - 3번째 글자에 대한 힌트
+	printMessage("의자의 개수를 살펴보세요") // 3번째 글자에 대한 힌트
 }
 
 
